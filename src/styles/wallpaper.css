@@ -1,0 +1,691 @@
+.login{
+    background-color: transparent;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), var(--reddy-brown));
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    margin-right: 7px;
+    
+  }
+  
+  .create-act{
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    }
+  
+  .Login-Act{
+    position: absolute;
+    top:15px;
+    right:60px;
+  }
+  
+  .wallpaper_Edureka_logo{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    color: #ce0505;
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+   .Edureka_Ttitle_Heading{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    position: absolute;
+    top: 230px;
+    left:306px;
+    right:306px;
+    color: white;
+    
+  }
+  
+  .dd-search{
+    position: absolute;
+    top: 300px;
+    text-align: center;
+   
+    left: 307px;
+    }
+  
+  
+  .search-box{
+    width: 240px;
+    height: 30px;
+    border: solid 1px gray;
+    color: gray;
+    padding-left: 25px;
+    opacity: 0.8;
+    margin-left: 5px;
+  }
+  
+  #glyphicon{
+   
+    top: 6px !important;
+    left: 282px !important;
+    color: gray;
+  
+  }
+
+  
+
+  .search {
+    position: absolute !important;
+    left: 288px;
+    margin: 2% 0px;
+}
+
+
+.liSuggestions{
+    list-style: none;
+    background-color: lightgray;
+    background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+    padding: 10px 15px 10px 25px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+    /*width: 100%;*/
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 90%;
+    position: absolute;
+    top: 14px;
+    left: 175px;
+}
+
+#query {
+    /*width: 100%;*/
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: lightgray;
+    color: gray;
+    padding-left: 29px;
+    opacity: 0.8;
+    width: 90%;
+    position: absolute;
+    top: -25px;
+    height: 35px;
+}
+.dd{
+  width: 222px;
+  height: 35px;
+  font-size: 18px;
+  font-family: calibri light;
+  color: gray;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: lightgray;
+  padding-left: 15px;
+  margin-left: 35px;
+  opacity: 0.8;
+}
+
+
+#notebooks {
+    position: absolute;
+    left: 38%;
+    width: 350px;
+    border-radius: 5px;
+    max-height: 450px;
+}
+
+
+
+
+
+.suggestions{
+    margin: 0 auto;
+    padding: 0;
+    max-height: 390px;
+    overflow-y: auto;
+    /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+    padding: 5px 5px 0 5px;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+
+#notebooks span {
+    display: block;
+    position: absolute;
+    background: #FFD32E;
+    bottom: -35px;
+    left: -1px;
+    width: 360px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 599px){
+
+    .create-act{
+      width: 110;
+      text-align: center;
+      font-size: 12;
+      margin-right: -10;
+    }
+  
+    .login{
+      width: 50;
+      font-size: 12;
+      margin-right: -10;
+    }
+   
+  
+    .Edureka_logo {
+      position: absolute;
+      top: 15%;
+      right: 42%;
+      color: red;
+      font-size: 56px;
+      width: 85px;
+      height: 85px;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+  }
+     .Edureka_Ttitle_Heading {
+      text-align: center;
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--white);
+      position: relative;
+      top: -280px;
+      left: 0px;
+      right: 306px;
+      color: white;
+  }
+    
+    .dd-search{
+      position: relative;
+      top: -260px;
+      text-align: center;
+      left: -9px;
+    }
+      .dd{
+      width: 245px;
+      height: 30px;
+      color: gray;
+      border: solid 1px gray;
+      margin-bottom: 10px;
+      }
+    
+    .search-box{
+      width: 246px;
+      height: 30px;
+      border: solid 1px gray;
+      color: gray;
+      
+    }
+    #query {
+      /* width: 100%; */
+      box-sizing: border-box;
+      font-size: 19px;
+      padding: 5px;
+      font-family: calibri light;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      background-color: lightgray;
+      color: gray;
+      padding-left: 29px;
+      opacity: 0.8;
+      width: 90%;
+      position: absolute;
+      top: 25px;
+      left: -78px;
+      height: 35px;
+  }
+  .dd {
+    width: 245px;
+    height: 35px;
+    color: gray;
+    border: solid 1px gray;
+    margin-bottom: 10px;
+}
+#glyphicon {
+  top: 51px !important;
+  left: 116px !important;
+  color: gray;
+}
+
+.block {
+  width: 340px;
+  height: 140px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  background-color: var(--white);
+}
+liSuggestions{
+  list-style: none;
+  background-color: lightgray;
+  background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+  padding: 10px 15px 10px 25px;
+  border: 1px solid #CCC;
+  box-shadow: inset 1px 1px 0 rgb(255 255 255 / 50%);
+  margin-bottom: 5px;
+  /* width: 100%; */
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 90%;
+  position: absolute;
+  top: 60px;
+  left: -77px;
+}
+   
+}
+  
+  /*mini tab*/
+  @media screen and (min-width: 600px ) and (max-width:791px){
+  
+    .create-act{
+      width: 110;
+      text-align: center;
+      font-size: 13px;
+      margin-right: -10;
+    }
+  
+    .login{
+      width: 50;
+      font-size: 13px;
+      margin-right: -10px;
+    }
+   
+  
+    .Edureka_logo {
+      position: absolute;
+      top: 15%;
+      right: 45%;
+      color: red;
+      font-size: 62px;
+      width: 90px;
+      height: 90px;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+  }
+     .Edureka_Ttitle_Heading {
+      text-align: center;
+      font-family: Poppins;
+      font-size: 31px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--white);
+      position: relative;
+      top: -280px;
+      left: -1px;
+      right: 30px;
+      color: white;
+  }
+    
+    .dd-search{
+      position: relative;
+      top: -260px;
+      text-align: center;
+      left: -9px;
+    }
+      .dd{
+      width: 245px;
+      height: 30px;
+      color: gray;
+      border: solid 1px gray;
+      margin-bottom: 10px;
+      }
+    
+    .search-box{
+      width: 246px;
+      height: 30px;
+      border: solid 1px gray;
+      color: gray;
+    }
+  
+    .glyphicon{
+      top: 40px ;
+      left: -228px ;
+      color: gray;
+    }
+
+    #glyphicon {
+      top: 41px !important;
+      left: 163px !important;
+      color: gray;
+  }
+
+    #query {
+      /* width: 100%; */
+      box-sizing: border-box;
+      font-size: 19px;
+      padding: 5px;
+      font-family: calibri light;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      background-color: lightgray;
+      color: gray;
+      padding-left: 29px;
+      opacity: 0.8;
+      width: 90%;
+      position: absolute;
+      top: 20px;
+      height: 35px;
+      right: 105px;
+  }
+
+  .liSuggestions {
+    list-style: none;
+    background-color: lightgray;
+    background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+    padding: 10px 15px 10px 25px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 0 rgb(255 255 255 / 50%);
+    margin-bottom: 5px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 90%;
+    position: absolute;
+    top: 55px;
+    left: -70px;
+}
+    
+}
+  
+  /*tabs*/
+  @media screen and (min-width: 792px ) and (max-width:991px){
+  
+    .create-act{
+      width: 110;
+      text-align: center;
+      font-size: 13px;
+      margin-right: -10;
+    }
+  
+    .login{
+      width: 50;
+      font-size: 13px;
+      margin-right: -10px;
+    }
+   
+  
+    .Edureka_logo {
+      position: absolute;
+      top: 15%;
+      right: 45%;
+      color: red;
+      font-size: 62px;
+      width: 90px;
+      height: 90px;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+  }
+     .Edureka_Ttitle_Heading {
+      text-align: center;
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--white);
+      position: relative;
+      top: -280px;
+      left: 0px;
+      right: 306px;
+      color: white;
+  }
+    
+    .dd-search{
+      position: relative;
+      top: -260px;
+      text-align: center;
+      left: -9px;
+    }
+      .dd{
+      width: 245px;
+      height: 30px;
+      color: gray;
+      border: solid 1px gray;
+      margin-bottom: 10px;
+      }
+    
+    .search-box{
+      width: 246px;
+      height: 30px;
+      border: solid 1px gray;
+      color: gray;
+    }
+
+    #query {
+      /* width: 100%; */
+      box-sizing: border-box;
+      font-size: 19px;
+      padding: 5px;
+      font-family: calibri light;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      background-color: lightgray;
+      color: gray;
+      padding-left: 29px;
+      opacity: 0.8;
+      width: 90%;
+      position: absolute;
+      top: 20px;
+      height: 35px;
+      right: 83px;
+  }
+
+  .liSuggestions {
+    list-style: none;
+    background-color: lightgray;
+    background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+    padding: 10px 15px 10px 25px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 0 rgb(255 255 255 / 50%);
+    margin-bottom: 5px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 90%;
+    position: absolute;
+    top: 55px;
+    left: -48px;
+}
+
+#glyphicon {
+  top: 38px !important;
+  left: 258px !important;
+  color: gray;
+}
+
+.block {
+  width: 340px;
+  height: 140px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  background-color: var(--white);
+}
+    
+}
+  
+  /*Desktop*/
+  
+  @media screen and (min-width: 992px ) and (max-width:1284px){
+  
+    .create-act{
+      width: 110;
+      text-align: center;
+      font-size: 13px;
+      margin-right: -10;
+    }
+  
+    .login{
+      width: 50;
+      font-size: 13px;
+      margin-right: -10px;
+    }
+   
+  
+    .Edureka_logo {
+      position: absolute;
+      top: 10%;
+      left: 45%;
+      color: red;
+      font-size: 62px;
+      width: 90px;
+      height: 90px;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+  }
+     .Edureka_Ttitle_Heading {
+      text-align: center;
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--white);
+      position: relative;
+      top: -280px;
+      left: -1px;
+      right: 306px;
+      color: white;
+  }
+    
+    .dd-search{
+      position: relative;
+      top: -260px;
+      text-align: center;
+      left: -20px;
+  }
+  .dd {
+    width: 245px;
+    height: 35px;
+    color: gray;
+    border: solid 1px gray;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 509px;
+}
+    .search-box{
+      width: 246px;
+      height: 30px;
+      border: solid 1px gray;
+      color: gray;
+    }
+    #query {
+      /* width: 100%; */
+      box-sizing: border-box;
+      font-size: 19px;
+      padding: 5px;
+      font-family: calibri light;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      background-color: lightgray;
+      color: gray;
+      padding-left: 29px;
+      opacity: 0.8;
+      width: 90%;
+      position: absolute;
+      top: -14px;
+      right: -72px;
+      height: 35px;
+  }
+
+  #glyphicon {
+    top: -7px !important;
+    left: 489px !important;
+    color: gray;
+    /* bottom: 51px; */
+}
+
+.liSuggestions {
+  list-style: none;
+  background-color: lightgray;
+  background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+  padding: 10px 15px 10px 25px;
+  border: 1px solid #CCC;
+  box-shadow: inset 1px 1px 0 rgb(255 255 255 / 50%);
+  margin-bottom: 5px;
+  /* width: 100%; */
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 90%;
+  position: absolute;
+  top: 21px;
+  left: 107px;
+}
+
+.block {
+  width: 340px;
+  height: 140px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  background-color: var(--white);
+}
+    
+}
+    

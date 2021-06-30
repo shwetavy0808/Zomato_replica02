@@ -1,0 +1,623 @@
+
+  
+  .Breakfast_Places_in_Mumbai{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 13px;
+  }
+  
+  .filter-block {
+    width: 320px;
+    height: 500px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .filter2 {
+    width:320px;
+    box-shadow: 0 0px 6px 0 rgb(0 0 0 / 16%);
+    padding: 10px;
+  }
+  
+  .toggle-span{
+    float: right;
+    padding: 10px;
+    visibility: hidden;
+    
+  }
+  
+  .filter_Page_heading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    padding-top: 11px;
+    margin-left: 5px;
+    display: inline-block;
+    
+  
+  }
+  
+  .select {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color:#192f60;
+    margin-bottom:6px;
+    margin-left: 5px;
+  }
+  
+  
+  .Select_Location_dd {
+    width: 180px;
+    height: 25px;
+    border: solid 1px #8c96ab;
+    margin-bottom: 20px;
+    color: #8c96ab;
+    padding-left: 5px;
+    margin-left: 5px;
+  }
+  
+  .input-options {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+
+  .Item-Block{
+    width: 600px;
+    height: 220px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    margin-left: 2px;
+    background-color: var(--white);
+  }
+  
+  .Item-img {
+    filter: brightness(100%);
+    border-radius: 23px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  
+  .Item-block-heading {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    
+    
+  }
+  
+  .Item-block-subheading {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  
+    
+  }
+  
+  .Item-block-address {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+  }
+  
+  .headings{
+    margin-left: 25px;
+    }
+  
+  
+  .CUISINES-COST-FOR-TWO,.Bakery-700 {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    margin-left: 25px;
+  }
+  .hr{
+    width: 550px;
+    height: 0;
+    margin: 20px 0 15px  25px;
+    border: solid 1px #dedfe5;
+  }
+  
+  /* Pagination */
+
+  .pagination a {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    width: 36px;
+    height: 36px;
+    color: black;
+    float: left;
+    padding: 3px;
+    text-align: left;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 4px;
+    color: #8c96ab;
+    text-align: center;
+}
+
+.pagination{
+    margin-left: 12%;
+  }
+
+  .defaultMessageforNoRecordFound{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    color: #192f60;
+    text-align: center;
+    width: 600px;
+    height: 220px;
+    padding-top: 75px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    margin-bottom: 20px;
+    margin-left: 2px;
+    background-color: var(--white);
+  }
+
+
+
+
+
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color:#8c96ab;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+  @media only screen and (max-width: 599px) {
+  
+    .container{
+      padding-left: 0px !important;
+    }
+    .toggle-span{
+      float: right;
+      padding: 10px;
+      visibility: visible;
+      
+    }
+  
+    #glyphicon1 {
+      top: 5px !important;
+      left: 10px !important;
+      color: gray;
+  }
+    .filter-block {
+      margin-bottom: 20px;
+    }
+  
+    .input-options {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      margin-bottom: 20px;
+    }
+  
+    .Item-Block{
+      width: 450px;
+      
+    }
+  
+    .Item-img {
+      filter: brightness(100%);
+      border-radius: 23px;
+      margin-left: 25px;
+      margin-top: 0px;
+    }
+  
+    
+  
+    .headings{
+      margin-left: 0px;
+      }
+    
+    
+    #hr{
+      width: 405px;
+      height: 0;
+      margin: 20px 0 15px  25px;
+      border: solid 1px #dedfe5;
+    }
+    
+    
+  }
+  
+  /* Mini Tabs */
+  @media screen and (min-width: 600px) and (max-width: 791px){
+    .navbar{
+      width: 100%;
+      height: 15px;
+      background-color: red;
+      border-radius: 0px !important;
+      margin-bottom: 10px !important;
+    }
+    
+    .Edureka_logo{
+      position: absolute;
+      top: 8%;
+      left:60px;
+      color: red;
+      font-size: 30px;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+    }
+    
+    .login{
+      background-color: transparent;
+      border: none;
+      color: white;
+      background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), var(--reddy-brown));
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+      margin-right: 7px;
+    }
+    
+    .create-act{
+      background-color: transparent;
+      border: solid 1px white;
+      color: white;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+      }
+    
+    .Login-Act{
+      position: absolute;
+      top:12px;
+      bottom: 10px;
+      right:60px;
+    }
+  
+    .toggle-span{
+     visibility: hidden;
+    }
+    
+    .Breakfast_Places_in_Mumbai{
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      margin-left: 13px;
+    }
+    
+    .filter-block {
+      width: 320px;
+      height: 500px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      padding-left: 15px;
+      padding-top: 20px;
+    }
+    
+    .filter2 {
+      width:320px;
+      box-shadow: 0 0px 6px 0 rgb(0 0 0 / 16%);
+      padding: 10px;
+    }
+    
+    .toggle-span{
+      float: right;
+      padding: 10px;
+      visibility: hidden;
+    }
+    
+    .filter_Page_heading {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      padding-top: 11px;
+      margin-left: 5px;
+      display: inline-block;
+    }
+    
+    .select {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color:#192f60;
+      margin-bottom:6px;
+      margin-left: 5px;
+    }
+    
+    .Select_Location_dd {
+      width: 180px;
+      height: 25px;
+      border: solid 1px #8c96ab;
+      margin-bottom: 20px;
+      color: #8c96ab;
+      padding-left: 5px;
+      margin-left: 5px;
+    }
+    
+    .input-options {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      margin-bottom: 20px;
+    }
+    
+    .Item-Block{
+      margin-top: 20px;
+      width: 450px;
+    }
+  
+    .Item-img {
+      filter: brightness(100%);
+      border-radius: 23px;
+      margin-left: 25px;
+      margin-top: 0px;
+    }
+  
+    .headings{
+      margin-left: 0px;
+    }
+    
+    .hr{
+      width: 400px;
+      height: 0;
+      margin: 20px 0 15px  25px;
+      border: solid 1px #dedfe5;
+    }
+    
+    .Item-block-heading {
+      font-family: Poppins;
+      font-size: 25px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+    }
+    
+    .Item-block-subheading {
+      font-family: Poppins;
+      font-size: 13px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+    }
+    
+    .Item-block-address {
+      font-family: Poppins;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+      text-align: left;
+      color: #636f88;
+    }
+    
+    .CUISINES-COST-FOR-TWO,.Bakery-700 {
+      font-family: Poppins;
+      font-size: 11px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-align: left;
+      color: #636f88;
+      margin-left: 25px;
+    }
+    
+  }
+  
+  /* Tabs */
+  @media screen and (min-width: 792px) and (max-width: 991px ){
+    .container{
+      padding-left: 0px !important;
+    }
+    .toggle-span{
+     visibility: hidden;
+    }
+  
+    .filter2 {
+    width:270px;
+    }
+  
+    .filter-block {
+      width: 270px;
+      margin-bottom: 20px;
+    }
+    
+    .input-options {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      margin-bottom: 20px;
+    }
+  
+    .Item-Block{
+      width: 450px;
+      margin-left: 101px;
+    }
+  
+    .Item-img {
+      border-radius: 21px !important;
+      margin-top: 15px !important;
+      height: 90px;
+      width: 90px;
+    }
+  
+    .headings{
+      margin-left: 20px !important;
+    }
+  
+    .CUISINES-COST-FOR-TWO{
+      font-size: 9px;
+    }
+    
+    .hr{
+      width: 400px;
+      height: 0;
+      margin: 20px 0 15px  25px;
+      border: solid 1px #dedfe5;
+    }
+    
+  }
+  
+  /* Desktop */
+  @media screen and (min-width: 992px) and (max-width: 1284px){
+    .container{
+      padding-left: 0px !important;
+    }
+    .toggle-span{
+     visibility: hidden;
+    }
+  
+    .filter-block {
+      margin-bottom: 20px;
+    }
+  
+    .input-options {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #8c96ab;
+      margin-bottom: 20px;
+    }
+  
+    .Item-Block{
+      margin-left:100px !important;
+    }
+  
+    .Item-img {
+      filter: brightness(100%);
+      border-radius: 23px;
+      margin-left: 25px;
+      margin-top: 20px;
+    }
+  
+    .headings{
+      margin-left: 25px;
+    }
+    
+    .hr{
+      width: 500px;
+      height: 0;
+      margin: 20px 0 15px  25px;
+      border: solid 1px #dedfe5;
+    }
+    
+  }

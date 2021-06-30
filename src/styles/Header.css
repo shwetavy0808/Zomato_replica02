@@ -1,0 +1,199 @@
+.app_header{
+    height: 50px;
+    background-color:red;
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color:  #ce0505;
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+
+  }
+  
+  .Edureka_logo1{
+    position: absolute;
+    top: 8%;
+    left: 60px;
+    color: #ce0505;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+  
+  .login{
+    background-color: transparent;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), var(--reddy-brown));
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  .create-act{
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    }
+
+    .credentials{
+      background-color: transparent;
+      border: solid 1px white;
+      color: #192f60;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+
+
+      width: 398px;
+      height: 50px;
+      margin: 22px 0.2px 92.6px 0;
+      padding: 1px 69px 11.8px 70px;
+      border-radius: 6px;
+      border: solid 1px #c7c7c7;
+      background-color: #ffffff;
+      }
+
+    .modalLoginName{
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 15px;
+    }
+
+    .Continue-Google {
+      opacity: 0.8;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+    }
+    .Dont-have-account-Sign-UP {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align:center;
+      color: #192f60;
+    }
+
+  .signUp{
+  position: absolute !important;
+  left: 42% !important;
+  margin: 10px 0 10px 0;
+ 
+    }
+
+    .Continue-with-Facebook {
+      opacity: 0.8;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #192f60;
+      width: 250px;
+      height: 33px;
+      margin: 15px 0 0 0;
+      border-radius: 6px;
+      border: solid 1px #c7c7c7;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .Continue-with-Google {
+      opacity: 0.8;
+      font-family: Poppins !important;
+      font-size: 15px !important;
+      font-weight: 500 !important;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center  !important;
+      color: #192f60  !important;
+      width: 250px;
+      height: 33px;
+      margin: 15px 0 0 0;
+      border-radius: 6px  !important;
+      border: solid 1px #c7c7c7  !important;
+      background-color: #ffffff  !important;
+      box-shadow: none !important;
+      padding-left: 36px !important;
+  
+      
+    }
+    
+    #togglePassword{
+      color: crimson;
+    }
+    
+  
+
+
+    @media screen and (min-width: 792px ) and (max-width:991px){
+      .login {
+        background-color: transparent;
+        border: none;
+        color: white;
+        background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), var(--reddy-brown));
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: left;
+        margin-right: 10px;
+    }
+
+    }
+
+@media screen and (min-width: 992px ) and (max-width:1284px){
+  .login {
+       margin-right: 10px;
+  }
+}
+    
